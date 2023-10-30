@@ -1,0 +1,341 @@
+/*this is for multimedia*/
+
+body {
+  background-image: url(images/greenflower.jpg);
+  background-size: 500px;
+  font-family: menlo;
+  color:#588061;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 5px dashed #588061;
+  padding: 24px;
+  background-color: #FDE9EA;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  height: 100px;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 5px;
+  font-size: 30px;
+  z-index: 101;
+}
+.contact2 {
+  width: 1200px;
+  padding: 0;
+  position: relative;
+}
+.tapeimage {
+width: 600px;
+float: right;
+}
+.tape1{
+  position: absolute;
+  margin: 0;
+  top: 5px;
+  right: 50px;
+  padding: 0 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav {
+  grid-column: span 5;
+  padding: 10px;
+}
+.contact3 {
+  width: 500px;
+  padding: 0;
+  position: relative;
+}
+.note2{
+  position: absolute;
+  top: 90px;
+  left: 150px;
+  padding: 0 1em;
+}
+.noteimage{
+  width: 500px;
+}
+#red {
+  position: absolute;
+  z-index: 100;
+  top: 430px;
+  height: 230px;
+  transform: rotate(-3deg);
+}
+#tape2 {
+  position: absolute;
+  width: 300px;
+  left: 200px;
+  top: -15px;
+  transform: rotate(10deg);
+  z-index: 90;
+}
+nav ul{
+  list-style-type: none;
+  transform: rotate(-6deg);
+}
+nav a{
+      font-size: 20px;
+margin-bottom: 5px;
+  color: #588061;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  padding: 10px;
+}
+nav a:hover {
+  color: #2E4232;
+  background-color: #E7B5AC;
+    border: 3px dashed #588061;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+main {
+  padding: 10px;
+  grid-column: span 6;
+}
+.contact4 {
+  position: relative;
+}
+.contact4 p {
+  position: absolute;
+  top: 100px;
+left: 100px;
+z-index: 100;
+}
+main p {
+    background-color: #F9E0DB;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px dashed #588061;
+}
+
+#checker2 {
+  width: 450px;
+padding-top:30px;
+transform: rotate(-5deg);
+  margin-left: 30px;
+
+}
+#butterfly {
+  width: 250px;
+top: 200px;
+right: -80px;
+
+  position: absolute;
+  transform: rotate(20deg);
+  z-index: 104;
+}
+
+footer{
+  grid-column: span 6;
+  padding: 10px;
+}
+.size{
+  width:500px;
+  height: 330px;
+}
+.carousel {
+
+  color: #584755;
+
+  --carousel-button-bg: #F8D5EE;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 380px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+#myCarousel2 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90%;
+  height: 600px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+#myCarousel3 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 550px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+#myCarousel4 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 630px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+#myCarousel5 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 680px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+#myCarousel {
+  grid-column: span 6;
+}
+
+#myCarousel2 {
+  grid-column: span 6;
+}
+#myCarousel3 {
+  grid-column: span 6;
+}
+#myCarousel4 {
+  grid-column: span 6;
+}
+#myCarousel5 {
+  grid-column: span 6;
+}
+.size2{
+  width:400px;
+  height: 550px;
+}
+.size3{
+  width:500px;
+  height: 500px;
+}
+.size4{
+  width:500px;
+  height: 590px;
+}
+.size5{
+  width:520px;
+  height: 630px;
+}
+
+h2 {
+  padding-top: 0;
+}
+.vintage{
+  margin-top: 50px;
+  margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 230px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+
+.vintage2{
+  margin-top: 170px;
+  margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 170px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintage3{
+  margin-top: 130px;
+  margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 230px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintage4{
+  margin-top: 130px;
+  margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 320px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintage5{
+  margin-top: 130px;
+  margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 340px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+
+#sidetape {
+  position: absolute;
+  bottom: 220px;
+  right: 130px;
+  transform: rotate(5deg);
+}
+#sidetape2 {
+  position: absolute;
+  bottom: 170px;
+  right: 130px;
+  transform: rotate(-5deg);
+}
+#sidetape3 {
+  right: 130px;
+  bottom: 220px;
+  position: absolute;
+}
+#sidetape4 {
+  right: 130px;
+  bottom: 310px;
+  position: absolute;
+}
+#sidetape5 {
+  right: 130px;
+  bottom: 330px;
+  position: absolute;
+}
+
+.copyright{
+  grid-column: span 12;
+  margin-left: 400px;
+}
+.copyright p{
+  border-top: 3px dashed #588061;
+  display:block;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+}
