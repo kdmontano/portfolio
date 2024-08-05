@@ -73,7 +73,7 @@ nav {
   position: absolute;
   width: 300px;
   left: 230px;
-top: 30px;
+top: 10px;
   transform: rotate(10deg);
   z-index: 90;
 }
