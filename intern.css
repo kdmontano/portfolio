@@ -1,0 +1,485 @@
+/*for digital art page */
+body {
+  background-image: url(images/greenflower.jpg);
+  background-size: 500px;
+  font-family: menlo;
+  color:#588061;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 5px dashed #588061;
+  padding: 24px;
+  background-color: #FDE9EA;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  height: 100px;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 5px;
+  font-size: 30px;
+  z-index: 101;
+}
+.contact2 {
+  width: 1200px;
+  padding: 0;
+  position: relative;
+}
+.tapeimage {
+width: 600px;
+float: right;
+}
+.tape1{
+  position: absolute;
+  margin: 0;
+  top: 5px;
+  right: 50px;
+  padding: 0 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav {
+  grid-column: span 5;
+  padding: 10px;
+}
+.contact3 {
+  width: 500px;
+  padding: 0;
+  position: relative;
+}
+.note2{
+  position: absolute;
+  top: 90px;
+  left: 170px;
+  padding: 0 1em;
+}
+.noteimage{
+  width: 560px;
+}
+#red {
+  position: absolute;
+  z-index: 100;
+  top: 430px;
+  height: 230px;
+  transform: rotate(-3deg);
+}
+#tape2 {
+  position: absolute;
+  width: 300px;
+  left: 230px;
+top: 30px;
+  transform: rotate(10deg);
+  z-index: 90;
+}
+nav ul{
+  list-style-type: none;
+  transform: rotate(-6deg);
+}
+nav a{
+      font-size: 20px;
+margin-bottom: 5px;
+  color: #588061;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  padding: 10px;
+}
+nav a:hover {
+  color: #2E4232;
+  background-color: #E7B5AC;
+    border: 3px dashed #588061;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+main {
+  padding: 10px;
+  grid-column: span 6;
+}
+.contact4 {
+  position: relative;
+}
+.contact4 p {
+  position: absolute;
+  top: 100px;
+left: 100px;
+z-index: 100;
+}
+main p {
+    background-color: #F9E0DB;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px dashed #584755;
+}
+
+#checker2 {
+  width: 450px;
+  transform: rotate(-5deg);
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-right: 40px;
+}
+#corny {
+  width: 270px;
+  top: 190px;
+  right: -80px;
+  position: absolute;
+  transform: rotate(10deg);
+  z-index: 104;
+}
+
+footer{
+  grid-column: span 6;
+  padding: 10px;
+}
+
+.carousel {
+
+  color: #584755;
+
+  --carousel-button-bg: #F8D5EE;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+#myCarousel .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 500px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+
+iframe{
+  margin-top: 50px;
+  grid-column: span 6;
+  height: 642px;
+  width: 600px;
+}
+#myCarousel3 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 85%;
+  height: 580px;
+  margin-right: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+}
+
+
+#myCarousel7 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 720px;
+  margin-right: 0px;
+  border-radius: 6px;
+}
+#myCarousel8 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 600px;
+
+  margin-right: 0px;
+  border-radius: 6px;
+}
+
+#myCarousel10 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 650px;
+  margin-right: 0px;
+  border-radius: 6px;
+}
+#myCarousel11 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 640px;
+  margin-right: 0px;
+  border-radius: 6px;
+}
+#myCarousel {
+  grid-column: span 6;
+}
+
+#myCarousel3 {
+  grid-column: span 7;
+}
+#myCarousel4 {
+  grid-column: span 6;
+}
+#myCarousel5 {
+  grid-column: span 12;
+}
+#myCarousel6 {
+  grid-column: span 6;
+}
+#myCarousel7 {
+  grid-column: span 7;
+}
+#myCarousel8 {
+  grid-column: span 6;
+}
+#myCarousel9 {
+  grid-column: span 6;
+}
+#myCarousel10 {
+  grid-column: span 6;
+}
+#myCarousel11 {
+  grid-column: span 6;
+}
+.size{
+  width:500px;
+  height: 450px;
+}
+.size15{
+  width: 450px;
+  height: 240px;
+  margin-left: 20px;
+}
+
+.size3{
+  width:550px;
+  height: 390px;
+}
+.size35{
+  height: 530px;
+}
+.size4 {
+  width: 550px;
+  height: 650px;
+ margin-top:20px;
+ margin-bottom: 20px;
+}
+.size6{
+height:680px;
+}
+.sizeposter{
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 550px;
+}
+.sizemagazine{
+  height: 610px;
+}
+.sizemap{
+  height: 600px;
+}
+.size5 {
+width: 500px;
+}
+.size7{
+height: 500px;
+height: 500px;
+}
+.sizecover{
+  height: 600px;
+  padding-left: 100px;
+  margin: 20px;
+}
+#banner{
+  width: 1200px;
+}
+.vintage{
+  margin-top: 150px;
+  margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 240px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintage2{
+margin-top: 270px;
+margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 175px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintage3{
+  margin-top: 150px;
+  margin-right: 10px;
+  grid-column: span 5;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 320px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintage4{
+  margin-top: 200px;
+  margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 160px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintage5{
+  margin-top: 20px;
+  margin-bottom: 55px;
+margin-left: 210px;
+  grid-column: span 10;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 280px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintage6{
+margin-top: 200px;
+margin-right: 10px;
+  grid-column: span 5;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 180px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
+.vintagelogo{
+  margin-top: 100px;
+  margin-right: 10px;
+    grid-column: span 6;
+    text-align: center;
+    background-image: url(images/gridpaper.png);
+    height: 330px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  }
+.vintageedu{
+  margin-top: 120px;
+  margin-right: 10px;
+    grid-column: span 6;
+    text-align: center;
+    background-image: url(images/gridpaper.png);
+    height: 380px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  }
+.vintage7{
+  margin-top: 100px;
+  margin-right: 10px;
+    grid-column: span 6;
+    text-align: center;
+    background-image: url(images/gridpaper.png);
+    height: 360px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  }
+  .vintage8{
+    margin-top: 100px;
+    margin-right: 10px;
+      grid-column: span 6;
+      text-align: center;
+      background-image: url(images/gridpaper.png);
+      height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    }
+
+#sidetape {
+  position: absolute;
+  width: 300px;
+  right: 140px;
+  bottom: 250px;
+  transform: rotate(3deg);
+}
+#sidetape2 {
+  position: absolute;
+  right: 100px;
+  bottom: 330px;
+  
+}
+#sidetape3 {
+  position: absolute;
+  right: 70px;
+  bottom: 320px;
+}
+#sidetape4 {
+  position: absolute;
+  right: 140px;
+  bottom: 160px;
+}
+#sidetape5 {
+  position: absolute;
+  right: 140px;
+  bottom: 250px;
+}
+#sidetape6 {
+  position: absolute;
+  right: 70px;
+  bottom: 180px;
+}
+#sidetape9 {
+  position: absolute;
+  right: 100px;
+  bottom: 380px;
+}
+#sidetape7 {
+  position: absolute;
+  right: 140px;
+  bottom: 360px;
+}
+#sidetape8 {
+  position: absolute;
+  right: 140px;
+  bottom: 350px;
+}
+.copyright{
+  grid-column: span 12;
+  margin-left: 400px;
+}
+.copyright p{
+  border-top: 3px dashed #588061;
+  display:block;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+}
+
+#promo{
+  width: 400px;
+}
