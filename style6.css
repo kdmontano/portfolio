@@ -1,4 +1,4 @@
-/*this is for multimedia*/
+/*this is for video*/
 
 body {
   background-image: url(images/greenflower.jpg);
@@ -57,24 +57,24 @@ nav {
 .note2{
   position: absolute;
   top: 90px;
-  left: 150px;
+  left: 170px;
   padding: 0 1em;
 }
 .noteimage{
-  width: 500px;
+  width: 560px;
 }
 #red {
   position: absolute;
   z-index: 100;
   top: 430px;
-height: 230px;
+  height: 230px;
   transform: rotate(-3deg);
 }
 #tape2 {
   position: absolute;
   width: 300px;
-  left: 200px;
-  top: -15px;
+  left: 230px;
+top: 30px;
   transform: rotate(10deg);
   z-index: 90;
 }
@@ -163,10 +163,7 @@ h2 {
   font-size: 30px;
 }
 
-video{
-  width: 1000px;
-  height: 600px;
-}
+
 
 #vid1{
   grid-column: span 12;

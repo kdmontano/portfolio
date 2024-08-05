@@ -57,11 +57,11 @@ nav {
 .note2{
   position: absolute;
   top: 90px;
-  left: 150px;
+  left: 170px;
   padding: 0 1em;
 }
 .noteimage{
-  width: 500px;
+  width: 560px;
 }
 #red {
   position: absolute;
@@ -73,8 +73,8 @@ nav {
 #tape2 {
   position: absolute;
   width: 300px;
-  left: 200px;
-  top: -15px;
+  left: 230px;
+top: 30px;
   transform: rotate(10deg);
   z-index: 90;
 }
